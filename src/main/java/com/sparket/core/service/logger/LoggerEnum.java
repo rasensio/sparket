@@ -1,0 +1,30 @@
+package com.sparket.core.service.logger;
+
+public enum LoggerEnum {
+	SYSTEM,
+	CONTROLLER,
+	EMAIL,
+	HTTP,
+	WEB,
+	ROUTES,
+	CACHE,
+	DATABASE,
+	DATABASE_SQL,
+	RSS,
+	SCHEDULER,
+	REPORT,
+	IO,
+	UTILS,
+	LOGIC,
+	STATISTIC, 
+	SEARCH, 
+	OAUTH, 
+	SECURITY, 
+	REDIS, 
+	INJECTION, 
+	AMAZON, 
+	AMAZON_SQS, 
+	DAO, 
+	CLOUD_API,
+	TOGGLE;
+}
